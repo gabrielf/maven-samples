@@ -165,4 +165,15 @@
         </dependencies>
     </dependencyManagement>
 
+    <scm>
+        <connection>scm:git:git@github.com:gabrielf/Simple-Maven-Project.git</connection>
+        <developerConnection>scm:git:git@github.com:gabrielf/Simple-Maven-Project.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>http://github.com/gabrielf/Simple-Maven-Project</url>
+    </scm>
+    
+    <prerequisites>
+        <maven>2.2.1</maven>
+    </prerequisites>
+
 </project>
