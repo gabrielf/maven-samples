@@ -23,9 +23,9 @@
 
     <distributionManagement>
         <site>
-            <id>maven-template-server</id>
+            <id>site-server</id>
             <name>Test Project Site</name>
-            <url>file:///tmp/site/mavensite</url>
+            <url>file:///tmp/multi-module-site</url>
         </site>
     </distributionManagement>
 
@@ -50,27 +50,27 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <configuration>
                     <reportPlugins>
-                      <!--plugin>
+                      <plugin>
                         <artifactId>maven-checkstyle-plugin</artifactId>
                       </plugin>
 
                       <plugin>
                           <artifactId>maven-jxr-plugin</artifactId>
-                      </plugin-->
+                      </plugin>
 
                       <plugin>
                           <artifactId>maven-javadoc-plugin</artifactId>
                       </plugin>
 
-                      <!--plugin>
+                      <plugin>
                         <artifactId>maven-pmd-plugin</artifactId>
-                      </plugin-->
+                      </plugin>
 
                       <plugin>
                           <artifactId>maven-surefire-report-plugin</artifactId>
                       </plugin>
 
-                      <!--plugin>
+                      <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>findbugs-maven-plugin</artifactId>
                       </plugin>
@@ -78,7 +78,7 @@
                       <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>taglist-maven-plugin</artifactId>
-                      </plugin-->
+                      </plugin>
                     </reportPlugins>
                 </configuration>
             </plugin>
@@ -87,6 +87,11 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <artifactId>maven-checkstyle-plugin</artifactId>
+                    <version>2.8</version>
+                </plugin>
+
+                <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>2.3.2</version>
                 </plugin>
@@ -94,6 +99,16 @@
                 <plugin>
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>2.8</version>
+                </plugin>
+
+                <plugin>
+                    <artifactId>maven-jxr-plugin</artifactId>
+                    <version>2.3</version>
+                </plugin>
+
+                <plugin>
+                    <artifactId>maven-pmd-plugin</artifactId>
+                    <version>2.6</version>
                 </plugin>
 
                 <plugin>
@@ -124,6 +139,18 @@
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.11</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>findbugs-maven-plugin</artifactId>
+                    <version>2.3.3</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>taglist-maven-plugin</artifactId>
+                    <version>2.4</version>
                 </plugin>
 
                 <plugin>
@@ -180,10 +207,10 @@
     </dependencyManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:gabrielf/Simple-Maven-Project.git</connection>
-        <developerConnection>scm:git:git@github.com:gabrielf/Simple-Maven-Project.git</developerConnection>
+        <connection>scm:git:git@github.com:gabrielf/maven-samples.git</connection>
+        <developerConnection>scm:git:git@github.com:gabrielf/maven-samples.git</developerConnection>
         <tag>HEAD</tag>
-        <url>http://github.com/gabrielf/Simple-Maven-Project</url>
+        <url>http://github.com/gabrielf/maven-samples</url>
     </scm>
 
     <prerequisites>

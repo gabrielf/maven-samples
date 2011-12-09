@@ -18,9 +18,9 @@
 
     <distributionManagement>
         <site>
-            <id>maven-template-server</id>
+            <id>site-server</id>
             <name>Test Project Site</name>
-            <url>file:///tmp/site/mavensite</url>
+            <url>file:///tmp/single-module-site</url>
         </site>
     </distributionManagement>
 
@@ -74,6 +74,7 @@
 
                         <plugin>
                             <artifactId>maven-project-info-reports-plugin</artifactId>
+                            <version>2.4</version>
                         </plugin>
 
                         <plugin>
@@ -157,6 +158,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <scm>
+        <connection>scm:git:git@github.com:gabrielf/maven-samples.git</connection>
+        <developerConnection>scm:git:git@github.com:gabrielf/maven-samples.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>http://github.com/gabrielf/maven-samples</url>
+    </scm>
 
     <prerequisites>
         <maven>3.0.3</maven>
