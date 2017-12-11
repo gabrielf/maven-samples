@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-samples</groupId>
-  <artifactId>parent</artifactId>
+  <artifactId>maven-samples-master</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Parent</name>
+  <name>maven-samples-master</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
   <modules>
