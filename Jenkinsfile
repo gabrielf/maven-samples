@@ -1,5 +1,5 @@
 node(){
-
+//added
  stage 'clone'
    checkout scm
    bat 'dir'
