@@ -18,5 +18,19 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+  <build>
+		
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>7.1.1</version>
+				<configuration>
+					<source>10.0.2</source>
+					<target>10.0.2</target>
+					<fork>true</fork>
+					<executable>/home/ec2-user/jdk-10.0.2\bin\javac</executable>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
