@@ -7,7 +7,7 @@
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>1.61.0-SNAPSHOT</version>
-    <name>Parent</name>
+    <name>maven-samples-parent</name>
     <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
     <properties>
