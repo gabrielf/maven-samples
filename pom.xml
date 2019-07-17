@@ -10,10 +10,6 @@
     <name>maven-samples-parent</name>
     <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
-    <properties>
-        <hazelcast.version>1.65</hazelcast.version>
-    </properties>
-
     <modules>
         <module>multi-module</module>
         <module>single-module</module>
