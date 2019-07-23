@@ -20,7 +20,7 @@
     <properties>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-        <hazelcast.version>1.65</hazelcast.version>
+        <hazelcast.version>1.67</hazelcast.version>
     </properties>
 
     <modules>
