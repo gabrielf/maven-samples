@@ -6,7 +6,7 @@
     <groupId>com.example.maven-samples</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>2.10.2-SNAPSHOT</version>
+    <version>2.10.3-SNAPSHOT</version>
     <name>maven-samples-parent</name>
     <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
