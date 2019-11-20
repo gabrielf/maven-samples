@@ -1,0 +1,1029 @@
+========== Current Stable
+---
+Version: 3.12.4
+Date: 10/30/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.4.zip
+Download_ZIP_Size: 148 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.4.tar.gz
+Download_TAR_Size: 127 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.12.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.12.4/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.12.4/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-12-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+========== Previous Stable
+---
+Version: 3.12.3
+Date: 10/03/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.3.zip
+Download_ZIP_Size: 148 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.3.tar.gz
+Download_TAR_Size: 132 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.12.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.12.3/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.12.3/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-12-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.12.2
+Date: 08/02/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.2.zip
+Download_ZIP_Size: 148 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.2.tar.gz
+Download_TAR_Size: 132 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.12.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.12.2/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.12.2/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-12-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.12.1
+Date: 05/10/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.1.zip
+Download_ZIP_Size: 140 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.1.tar.gz
+Download_TAR_Size: 120 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.12.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.12.1/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.12.1/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-12-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.12
+Date: 04/09/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.zip
+Download_ZIP_Size: 136 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.12.tar.gz
+Download_TAR_Size: 119 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.12/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.12/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-12
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.11.5
+Date: 11/05/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.5.zip
+Download_ZIP_Size: 131 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.5.tar.gz
+Download_TAR_Size: 116 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.11.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.11.5/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.11.5/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-11-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.11.4
+Date: 05/09/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.4.zip
+Download_ZIP_Size: 130 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.4.tar.gz
+Download_TAR_Size: 114 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.11.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.11.4/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.11.4/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-11-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.11.3
+Date: 04/13/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.3.zip
+Download_ZIP_Size: 130 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.3.tar.gz
+Download_TAR_Size: 114 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.11.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.11.3/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.11.3/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-11-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.11.2
+Date: 02/16/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.2.zip
+Download_ZIP_Size: 130 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.2.tar.gz
+Download_TAR_Size: 114 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.11.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.11.2/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.11.2/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-11-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.11.1
+Date: 12/18/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.1.zip
+Download_ZIP_Size: 130 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.1.tar.gz
+Download_TAR_Size: 114 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.11.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.11.1/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.11.1/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-11-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.11
+Date: 10/23/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.zip
+Download_ZIP_Size: 87 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.11.tar.gz
+Download_TAR_Size: 71 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.11/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.11/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.11/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-11
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.10.6
+Date: 10/10/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.6.zip
+Download_ZIP_Size: 75 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.6.tar.gz
+Download_TAR_Size: 60 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.10.6/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.10.6/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.10.6/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-10-6
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.10.5
+Date: 09/13/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.5.zip
+Download_ZIP_Size: 75 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.5.tar.gz
+Download_TAR_Size: 60 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.10.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.10.5/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.10.5/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-10-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.10.4
+Date: 07/27/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.4.zip
+Download_ZIP_Size: 75 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.4.tar.gz
+Download_TAR_Size: 60 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.10.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.10.4/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.10.4/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-10-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.10.3
+Date: 07/19/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.3.zip
+Download_ZIP_Size: 75 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.3.tar.gz
+Download_TAR_Size: 60 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.10.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.10.3/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.10.3/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-10-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.10.2
+Date: 06/06/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.2.zip
+Download_ZIP_Size: 75 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.2.tar.gz
+Download_TAR_Size: 60 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.10.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.10.2/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.10.2/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-10-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.10.1
+Date: 05/21/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.1.zip
+Download_ZIP_Size: 75 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.1.tar.gz
+Download_TAR_Size: 60 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.10.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.10.1/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.10.1/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-10-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.10
+Date: 04/24/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.zip
+Download_ZIP_Size: 77 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.10.tar.gz
+Download_TAR_Size: 62 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.10/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.10/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.10/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-10
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.9.4
+Date: 04/20/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.4.zip
+Download_ZIP_Size: 77 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.4.tar.gz
+Download_TAR_Size: 63 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.9.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.9.4/manual/pdf/hazelcast-documentation-3.9.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.9.4/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-9-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.9.3
+Date: 02/16/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.3.zip
+Download_ZIP_Size: 77 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.3.tar.gz
+Download_TAR_Size: 63 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.9.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.9.3/manual/pdf/hazelcast-documentation-3.9.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.9.3/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-9-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.9.2
+Date: 01/03/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.2.zip
+Download_ZIP_Size: 77 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.2.tar.gz
+Download_TAR_Size: 63 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.9.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.9.2/manual/pdf/hazelcast-documentation-3.9.2.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.9.2/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-9-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.9.1
+Date: 11/30/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.1.zip
+Download_ZIP_Size: 77 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.1.tar.gz
+Download_TAR_Size: 63 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.9.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.9.1/manual/pdf/hazelcast-documentation-3.9.1.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.9.1/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-9-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.9
+Date: 10/23/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.zip
+Download_ZIP_Size: 77 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.9.tar.gz
+Download_TAR_Size: 63 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.9/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.9/manual/pdf/hazelcast-documentation-3.9.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.9/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-9
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.9
+Date: 01/03/2018
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.9.zip
+Download_ZIP_Size: 68 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.9.tar.gz
+Download_TAR_Size: 55 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.9/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.9/manual/pdf/hazelcast-documentation-3.8.9.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.9/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-9
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.8
+Date: 12/04/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.8.zip
+Download_ZIP_Size: 68 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.8.tar.gz
+Download_TAR_Size: 55 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.8/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.8/manual/pdf/hazelcast-documentation-3.8.8.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.8/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-8
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.7
+Date: 11/09/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.7.zip
+Download_ZIP_Size: 68 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.7.tar.gz
+Download_TAR_Size: 55 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.7/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.7/manual/pdf/hazelcast-documentation-3.8.7.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.7/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-7
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.6
+Date: 09/21/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.6.zip
+Download_ZIP_Size: 70.6 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.6.tar.gz
+Download_TAR_Size: 56.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.6/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.6/manual/pdf/hazelcast-documentation-3.8.6.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.6/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-6
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.5
+Date: 09/06/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.5.zip
+Download_ZIP_Size: 70.6 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.5.tar.gz
+Download_TAR_Size: 56.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.5/manual/pdf/hazelcast-documentation-3.8.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.5/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.4
+Date: 08/09/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.4.zip
+Download_ZIP_Size: 67.9 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.4.tar.gz
+Download_TAR_Size: 54.1 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.4/manual/pdf/hazelcast-documentation-3.8.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.4/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.3
+Date: 07/04/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.3.zip
+Download_ZIP_Size: 70.5 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.3.tar.gz
+Download_TAR_Size: 56.7 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.3/manual/pdf/hazelcast-documentation-3.8.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.3/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.2
+Date: 05/18/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.2.zip
+Download_ZIP_Size: 94.9 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.2.tar.gz
+Download_TAR_Size: 80.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.2/manual/pdf/hazelcast-documentation-3.8.2.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.2/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8.1
+Date: 04/11/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.1.zip
+Download_ZIP_Size: 101.8 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.1.tar.gz
+Download_TAR_Size: 88.1 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8.1/manual/pdf/hazelcast-documentation-3.8.1.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8.1/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.8
+Date: 02/18/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.zip
+Download_ZIP_Size: 99 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.8.tar.gz
+Download_TAR_Size: 85.3 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.8/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.8/manual/pdf/hazelcast-documentation-3.8.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.8/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-8
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7.7
+Date: 04/04/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.7.zip
+Download_ZIP_Size: 96.6 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.7.tar.gz
+Download_TAR_Size: 85 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7.7/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7.7/manual/pdf/hazelcast-documentation-3.7.7.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7.7/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7-7
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7.6
+Date: 03/14/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.6.zip
+Download_ZIP_Size: 86.6 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.6.tar.gz
+Download_TAR_Size: 74.6 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7.6/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7.6/manual/pdf/hazelcast-documentation-3.7.6.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7.6/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7-6
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7.5
+Date: 01/24/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.5.zip
+Download_ZIP_Size: 86.6 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.5.tar.gz
+Download_TAR_Size: 74.6 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7.5/manual/pdf/hazelcast-documentation-3.7.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7.5/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7.4
+Date: 12/09/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.4.zip
+Download_ZIP_Size: 82.6 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.4.tar.gz
+Download_TAR_Size: 70.7 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7.4/manual/pdf/hazelcast-documentation-3.7.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7.4/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7.3
+Date: 11/17/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.3.zip
+Download_ZIP_Size: 97.3 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.3.tar.gz
+Download_TAR_Size: 85.6 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7.3/manual/pdf/hazelcast-documentation-3.7.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7.3/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7.2
+Date: 10/04/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.2.zip
+Download_ZIP_Size: 97.4 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.2.tar.gz
+Download_TAR_Size: 85.7 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7.2/manual/pdf/hazelcast-documentation-3.7.2.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7.2/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7.1
+Date: 09/05/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.1.zip
+Download_ZIP_Size: 97.4 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.1.tar.gz
+Download_TAR_Size: 85.7 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7.1/manual/pdf/hazelcast-documentation-3.7.1.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7.1/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.7
+Date: 08/17/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.zip
+Download_ZIP_Size: 96.9 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.7.tar.gz
+Download_TAR_Size: 85 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.7/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.7/manual/pdf/hazelcast-documentation-3.7.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.7/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-7
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.8
+Date: 04/04/2017
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.8.zip
+Download_ZIP_Size: 99.2 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.8.tar.gz
+Download_TAR_Size: 86.3 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.8/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.8/manual/pdf/hazelcast-documentation-3.6.8.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.8/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-8
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.7
+Date: 12/08/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.7.zip
+Download_ZIP_Size: 99.2 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.7.tar.gz
+Download_TAR_Size: 96.3 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.7/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.7/manual/pdf/hazelcast-documentation-3.6.7.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.7/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-7
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.6
+Date: 10/20/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.6.zip
+Download_ZIP_Size: 98.1 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.6.tar.gz
+Download_TAR_Size: 85.6 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.6/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.6/manual/pdf/hazelcast-documentation-3.6.6.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.6/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-6
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.5
+Date: 08/23/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.5.zip
+Download_ZIP_Size: 92.3 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.5.tar.gz
+Download_TAR_Size: 79.5 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.5/manual/pdf/hazelcast-documentation-3.6.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.5/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.4
+Date: 07/01/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.4.zip
+Download_ZIP_Size: 88 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.4.tar.gz
+Download_TAR_Size: 75.7 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.4/manual/pdf/hazelcast-documentation-3.6.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.4/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.3
+Date: 05/29/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.3.zip
+Download_ZIP_Size: 96 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.3.tar.gz
+Download_TAR_Size: 83.5 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.3/manual/pdf/hazelcast-documentation-3.6.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.3/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.2
+Date: 04/05/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.2.zip
+Download_ZIP_Size: 110.2 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.2.tar.gz
+Download_TAR_Size: 97.4 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.2/manual/pdf/hazelcast-documentation-3.6.2.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.2/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6.1
+Date: 02/28/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.1.zip
+Download_ZIP_Size: 97.9 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.1.tar.gz
+Download_TAR_Size: 85.2 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6.1/manual/pdf/hazelcast-documentation-3.6.1.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6.1/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.6
+Date: 01/25/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.zip
+Download_ZIP_Size: 88.6 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.6.tar.gz
+Download_TAR_Size: 75.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.6/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.6/manual/pdf/hazelcast-documentation-3.6.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.6/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-6
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.5.5
+Date: 01/22/2016
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.5.zip
+Download_ZIP_Size: 118.4 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.5.tar.gz
+Download_TAR_Size: 102.5 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.5.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.5.5/manual/pdf/hazelcast-documentation-3.5.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.5.5/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-5-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.5.4
+Date: 11/25/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.4.zip
+Download_ZIP_Size: 116.4 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.4.tar.gz
+Download_TAR_Size: 99.3 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.5.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.5.4/manual/pdf/hazelcast-documentation-3.5.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.5.4/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-5-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.5.3
+Date: 10/11/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.3.zip
+Download_ZIP_Size: 115.2 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.3.tar.gz
+Download_TAR_Size: 99 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.5.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.5.3/manual/pdf/hazelcast-documentation-3.5.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.5.3/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-5-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.5.2
+Date: 08/26/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.2.zip
+Download_ZIP_Size: 134.4 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.2.tar.gz
+Download_TAR_Size: 117.9 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.5.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.5.2/manual/pdf/hazelcast-documentation-3.5.2.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.5.2/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-5-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.5.1
+Date: 07/28/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.1.zip
+Download_ZIP_Size: 134.8 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.1.tar.gz
+Download_TAR_Size: 118.4 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.5.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.5.1/manual/pdf/hazelcast-documentation-3.5.1.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.5.1/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-5-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.5
+Date: 06/17/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.zip
+Download_ZIP_Size: 135.9 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.5.tar.gz
+Download_TAR_Size: 119.6 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.5/manual/pdf/hazelcast-documentation-3.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.5/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.4.5
+Date: 07/31/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.5.zip
+Download_ZIP_Size: 117.7 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.5.tar.gz
+Download_TAR_Size: 103.7 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.4.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.4.5/manual/pdf/hazelcast-documentation-3.4.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.4.5/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-4-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.4.4
+Date: 06/21/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.4.zip
+Download_ZIP_Size: 117.7 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.4.tar.gz
+Download_TAR_Size: 103.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.4.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.4.4/manual/pdf/hazelcast-documentation-3.4.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.4.4/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-4-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.4.3
+Date: 06/16/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.3.zip
+Download_ZIP_Size: 117.7 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.3.tar.gz
+Download_TAR_Size: 103.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.4.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.4.3/manual/pdf/hazelcast-documentation-3.4.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.4.3/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-4-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.4.2
+Date: 03/25/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.2.zip
+Download_ZIP_Size: 118 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.2.tar.gz
+Download_TAR_Size: 104 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.4.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.4.2/manual/pdf/hazelcast-documentation-3.4.2.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.4.2/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-4-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.4.1
+Date: 02/13/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.1.zip
+Download_ZIP_Size: 117 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.1.tar.gz
+Download_TAR_Size: 103.1 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.4.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.4.1/manual/pdf/hazelcast-documentation-3.4.1.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.4.1/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-4-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.4
+Date: 12/24/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.zip
+Download_ZIP_Size: 114.8 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.4.tar.gz
+Download_TAR_Size: 101 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.4/manual/pdf/hazelcast-documentation-3.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.4/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.3.5
+Date: 01/22/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.5.zip
+Download_ZIP_Size: 108.3 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.5.tar.gz
+Download_TAR_Size: 97.2 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.3.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.3.5/manual/pdf/hazelcast-documentation-3.3.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.3.5/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-3-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.3.4
+Date: 01/12/2015
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.4.zip
+Download_ZIP_Size: 108.5 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.4.tar.gz
+Download_TAR_Size: 97.2 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.3.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.3.4/manual/pdf/hazelcast-documentation-3.3.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.3.4/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-3-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.3.3
+Date: 11/12/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.3.zip
+Download_ZIP_Size: 109.3 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.3.tar.gz
+Download_TAR_Size: 98.2 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.3.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.3.3/manual/pdf/hazelcast-documentation-3.3.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.3.3/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-3-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.3.2
+Date: 10/23/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.2.zip
+Download_ZIP_Size: 104.1 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.2.tar.gz
+Download_TAR_Size: 93 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.3.2/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.3.2/manual/pdf/hazelcast-documentation-3.3.2.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.3.2/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-3-2
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.3.1
+Date: 09/29/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.1.zip
+Download_ZIP_Size: 88 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.1.tar.gz
+Download_TAR_Size: 82.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.3.1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.3.1/manual/pdf/hazelcast-documentation-3.3.1.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.3.1/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-3-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.3
+Date: 09/08/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.zip
+Download_ZIP_Size: 92.2 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.3.tar.gz
+Download_TAR_Size: 83.9 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.3/manual/pdf/hazelcast-documentation-3.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.3/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.2.6
+Date: 09/07/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.6.zip
+Download_ZIP_Size: 73.7 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.6.tar.gz
+Download_TAR_Size: 65.8 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.2.6/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.2.6/manual/pdf/hazelcast-documentation-3.2.6.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.2.6/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-2-6
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.2.5
+Date: 08/14/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.5.zip
+Download_ZIP_Size: 71.4 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.5.tar.gz
+Download_TAR_Size: 63.5 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.2.5/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.2.5/manual/pdf/hazelcast-documentation-3.2.5.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.2.5/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-2-5
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.2.4
+Date: 07/21/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.4.zip
+Download_ZIP_Size: 67.9 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.4.tar.gz
+Download_TAR_Size: 59.9 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.2.4/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.2.4/manual/pdf/hazelcast-documentation-3.2.4.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.2.4/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-2-4
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+Version: 3.2.3
+Date: 06/17/2014
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.3.zip
+Download_ZIP_Size: 67.9 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-3.2.3.tar.gz
+Download_TAR_Size: 60 MB
+Docs_HTML: http://docs.hazelcast.org/docs/3.2.3/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/3.2.3/manual/pdf/hazelcast-documentation-3.2.3.pdf
+APIDocs: http://docs.hazelcast.org/docs/3.2.3/javadoc/
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#3-2-3
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+========== Development: SHOW
+---
+Version: 4.0-BETA-1
+Date: 11/05/2019
+Download_ZIP_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-4.0-BETA-1.zip
+Download_ZIP_Size: 97 MB
+Download_TAR_URL: https://download.hazelcast.com/enterprise/hazelcast-enterprise-4.0-BETA-1.tar.gz
+Download_TAR_Size: 76 MB
+Docs_HTML: http://docs.hazelcast.org/docs/4.0-BETA-1/manual/html-single/index.html
+Docs_PDF: http://docs.hazelcast.org/docs/4.0-BETA-1/manual/pdf/index.pdf
+APIDocs: http://docs.hazelcast.org/docs/4.0-BETA-1/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/ern/index.html#4.0-BETA-1
+CodeSamples_URL:
+CodeSamples_Size:
+Github:
+---
+=== END
