@@ -1,5 +1,14 @@
 ========== Java Client
 ---
+Version: 11.2.0
+Date: 11/26/2019
+Download: https://download.hazelcast.com/download.jsp?version=hazelcast-11.2.0&p=
+Download_Size: 388 KB
+Github: https://github.com/hazelcast/hazelcast/tree/v11.2.0
+Docs: http://docs.hazelcast.org/docs/11.2.0/manual/html-single/index.html
+APIDocs: http://docs.hazelcast.org/docs/11.2.0/javadoc
+ReleaseNotes: http://docs.hazelcast.org/docs/rn/index.html#@dashed_version@
+---
 Version: 3.12.4
 Date: 10/30/2019
 Download: https://download.hazelcast.com/download.jsp?version=hazelcast-3.12.4&p=
