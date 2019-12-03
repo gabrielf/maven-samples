@@ -10,8 +10,8 @@ Docs_HTML: https://docs.hazelcast.org/docs/11.15.0/manual/html-single/index.html
 Docs_PDF: https://docs.hazelcast.org/docs/11.15.0/manual/pdf/index.pdf
 APIDocs: https://docs.hazelcast.org/docs/11.15.0/javadoc
 ReleaseNotes: https://docs.hazelcast.org/docs/rn/index.html#11-15-0
-CodeSamples_URL: https://download.hazelcast.com/code-samples/hazelcast-code-samples-11.15.0.zip
-CodeSamples_Size: 
+CodeSamples_URL: https://download.hazelcast.com/code-samples/hazelcast-code-samples-11.13.0.zip
+CodeSamples_Size: 388 KB
 Github: https://github.com/hazelcast/hazelcast/tree/v11.15.0
 ---
 ========== Previous Stable
