@@ -14,11 +14,11 @@ pipeline {
             }
         }
 
-        stage('Checkout from Github') {
-          steps{
-               checkout([$class: 'GitSCM', branches: [[name: '*/mr-maven']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/fuz-rahm/maven-samples.git']]])
-            }
-        }
+//         stage('Checkout from Github') {
+//           steps{
+      //         checkout([$class: 'GitSCM', branches: [[name: '*/mr-maven']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/fuz-rahm/maven-samples.git']]])
+ //           }
+    //    }
         stage ('Unit Test') {
             steps{
                 sh 'mvn clean verify'
