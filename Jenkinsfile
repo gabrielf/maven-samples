@@ -39,32 +39,23 @@ pipeline {
                 }
 
         }
-        stage("build & SonarQube analysis") {
-          node {
-              withSonarQubeEnv('My SonarQube Server') {
-                 sh 'mvn clean package sonar:sonar'
-              }
-          }
-      }
-
-      stage("Quality Gate"){
-          timeout(time: 1, unit: 'HOURS') {
-              def qg = waitForQualityGate()
-              if (qg.status != 'OK') {
-                  error "Pipeline aborted due to quality gate failure: ${qg.status}"
-              }
-          }
-      }
-
-                
-            stage {
-        stage('SCM') {
+        stage ('Dependencies'){
             steps {
-                git url: 'https://github.com/foo/bar.git'
+                echo 'installing..'
+                sh 'echo $GIT_BRANCH'
+                sh 'npm install'
             }
         }
-                }
+        stage ('Sonar Analysis') {
+            environment {
+                scannerHome= tool 'SonarQube'
             }
+        }
 
-            }
+    }
+        
+
+            
+
+}            
             
