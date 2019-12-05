@@ -37,31 +37,34 @@ pipeline {
             steps {
                 sh 'pa11y -r csv https://cynerge.com --no-sandbox'
                 }
-            stages {
+
+        }
+        stage("build & SonarQube analysis") {
+          node {
+              withSonarQubeEnv('My SonarQube Server') {
+                 sh 'mvn clean package sonar:sonar'
+              }
+          }
+      }
+
+      stage("Quality Gate"){
+          timeout(time: 1, unit: 'HOURS') {
+              def qg = waitForQualityGate()
+              if (qg.status != 'OK') {
+                  error "Pipeline aborted due to quality gate failure: ${qg.status}"
+              }
+          }
+      }
+
+                
+            stage {
         stage('SCM') {
             steps {
                 git url: 'https://github.com/foo/bar.git'
             }
         }
-        stage('build && SonarQube analysis') {
-            steps {
-                withSonarQubeEnv('My SonarQube Server') {
-                    withMaven(maven:'Maven 3.5') {
-                        sh 'mvn clean package sonar:sonar'
-                    }
                 }
             }
-        }
-        stage("Quality Gate") {
-            steps {
-                timeout(time: 1, unit: 'HOURS') {
-                    // Parameter indicates whether to set pipeline to UNSTABLE if Quality Gate fails
-                    // true = set pipeline to UNSTABLE, false = don't
-                    waitForQualityGate abortPipeline: true
-                }
+
             }
-        }
-    }    
-            }
-        }
-}
+            
