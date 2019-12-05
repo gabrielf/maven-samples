@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Pa11y') {
             steps {
-                sh 'pa11y -r csv https://cynerge.com --no-sandbo'
+                sh 'pa11y -r csv https://cynerge.com --no-sandbox'
                 }
             }
         }
