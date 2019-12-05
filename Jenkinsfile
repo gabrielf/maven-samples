@@ -39,19 +39,7 @@ pipeline {
                 }
 
         }
-        stage ('Dependencies'){
-            steps {
-                echo 'installing..'
-                sh 'echo $GIT_BRANCH'
-                sh 'npm install'
-            }
-        }
-        stage ('Sonar Analysis') {
-            steps {
-                scannerHome= tool 'SonarQube Scaner'
-                sh "${scannerHome}/bin/sonar-scanner"
-            }
-        }
+        
 
     }
         
