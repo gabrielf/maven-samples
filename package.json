@@ -1,0 +1,20 @@
+{
+  "name": "maven-samples",
+  "version": "1.0.0",
+  "description": "Simple Maven Projects for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuz-rahm/maven-samples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuz-rahm/maven-samples/issues"
+  },
+  "homepage": "https://github.com/fuz-rahm/maven-samples#readme"
+}
