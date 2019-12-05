@@ -16,25 +16,25 @@ pipeline {
         stage('Checkout from Github') {
         
         steps{
-            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/jenkins-docs/simple-java-maven-app.git']]])
+            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/jenkins-docs/simple-java-maven-app.git']]])
             }
         }
         
-        stage ('Unit Test') {
+        stage ('Unit Test') {
             steps{
-                sh 'mvn clean verify'
+                sh 'mvn clean verify'
             }
         }
         stage ('Lighthouse'){
             steps{
-                sh 'lighthouse-batch -s https://google.com,https://cynerge.com'
-                sh 'ls report/lighthouse'
-                lighthouseReport './report/lighthouse/google_com.report.json'
+                sh 'lighthouse-batch -s https://google.com,https://cynerge.com'
+                sh 'ls report/lighthouse'
+                lighthouseReport './report/lighthouse/google_com.report.json'
             }
         }
-        stage('Pa11y') {
-            steps {
-                sh 'npm run build-pa11y'
+        stage('Pa11y') {
+            steps {
+                sh 'npm run build-pa11y'
                 }
             }
         }
