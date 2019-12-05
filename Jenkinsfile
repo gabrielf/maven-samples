@@ -48,7 +48,8 @@ pipeline {
         }
         stage ('Sonar Analysis') {
             steps {
-                scannerHome= tool 'SonarQube'
+                scannerHome= tool 'SonarQube Scaner'
+                sh "${scannerHome}/bin/sonar-scanner"
             }
         }
 
