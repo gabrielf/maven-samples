@@ -28,13 +28,14 @@ pipeline {
         }
         stage ('Lighthouse'){
             steps{
-                sh 'lighthouse-batch -s https://google.com,https://cynerge.com'
+                sh 'lighthouse-batch -s https://cynerge.com'
                 sh 'ls report/lighthouse'
                 lighthouseReport './report/lighthouse/google_com.report.json'
             }
         }
         stage('Pa11y') {
             steps {
+                sh 'npm install pa11y'
                 sh 'pa11y'
                 }
             }
