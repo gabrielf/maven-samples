@@ -30,7 +30,7 @@ pipeline {
             steps{
                 sh 'lighthouse-batch -s https://cynerge.com'
                 sh 'ls report/lighthouse'
-                lighthouseReport './report/lighthouse/google_com.report.json'
+                lighthouseReport './report/lighthouse/cynerge_com.report.json'
             }
         }
         stage('Pa11y') {
