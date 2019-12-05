@@ -5,6 +5,7 @@ pipeline {
     tools {
         maven 'maven'
         jdk 'java8'
+        nodejs "Node10"
     }
     stages {
         stage('clean workspace') {
@@ -34,7 +35,7 @@ pipeline {
         }
         stage('Pa11y') {
             steps {
-                sh 'npm run build-pa11y'
+                sh 'pa11y'
                 }
             }
         }
