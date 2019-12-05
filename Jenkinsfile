@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Pa11y') {
             steps {
-                sh 'npm install pa11y'
+                sh 'npm install -g pa11y'
                 sh 'pa11y'
                 }
             }
