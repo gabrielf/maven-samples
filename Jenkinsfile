@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Pa11y') {
             steps {
-                sh 'npm install -g pa11y'
+                sh 'npm install -g pa11y --unsafe-perm=true'
                 sh 'pa11y'
                 }
             }
