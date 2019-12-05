@@ -17,7 +17,7 @@ pipeline {
         stage('Checkout from Github') {
         
         steps{
-            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/fuz-rahm/simple-java-maven-app.git']]])
+            checkout([$class: 'GitSCM', branches: [[name: '*/mr-maven']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/fuz-rahm/simple-java-maven-app.git']]])
             }
         }
         
