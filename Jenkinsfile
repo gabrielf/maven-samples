@@ -39,23 +39,20 @@ pipeline {
                 lighthouseReport './report/lighthouse/cynerge_com.report.json'
             }
         }
-        stage('Pa11y') {
-            steps {
-                sh 'pa11y -r csv https://cynerge.com --no-sandbox'
-                }
 
-        }
+        // stage('Pa11y') {
+        //     steps {
+        //         sh 'pa11y -r csv https://cynerge.com --no-sandbox'
+        //         }
+
+        // }
 
         
     }
     post {
-    always {
-        emailext body: 'A Test EMail', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
+        always {
+            emailext body: 'A Test EMail', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
+        }
     }
-}
-        
-
-            
-
 }            
             
