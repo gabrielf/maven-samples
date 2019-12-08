@@ -21,26 +21,26 @@ pipeline {
             }
         }
 
-        // stage ('Unit Test') {
-        //     steps{
-        //         sh 'mvn clean verify'
-        //     }
-        // }
-        // stage ('Lighthouse'){
-        //     steps{
-        //         sh 'lighthouse-batch -s https://cynerge.com'
-        //         sh 'ls report/lighthouse'
-        //         lighthouseReport './report/lighthouse/cynerge_com.report.json'
-        //     }
-        // }
-
-        stage('Pa11y') {
-            steps {
-                sh 'ls -a'
-                sh 'pa11y-ci --config .pa11yci.json'
-                }
-
+        stage ('Unit Test') {
+            steps{
+                sh 'mvn clean verify'
+            }
         }
+        stage ('Lighthouse'){
+            steps{
+                sh 'lighthouse-batch -s https://cynerge.com'
+                sh 'ls report/lighthouse'
+                lighthouseReport './report/lighthouse/cynerge_com.report.json'
+            }
+        }
+
+        // stage('Pa11y') {
+        //     steps {
+        //         sh 'ls -a'
+        //         sh 'pa11y-ci --config .pa11yci.json'
+        //         }
+
+        // }
 
     }
     post {
