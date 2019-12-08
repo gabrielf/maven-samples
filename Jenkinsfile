@@ -36,6 +36,7 @@ pipeline {
 
         stage('Pa11y') {
             steps {
+                sh 'ls -a'
                 sh 'pa11y-ci'
                 }
 
