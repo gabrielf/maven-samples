@@ -21,6 +21,10 @@ pipeline {
             }
         }
         
+        stage('for testing'){
+            sh 'echo "test"'
+        }
+        
         stage ('Unit Test') {
             steps{
                 sh 'mvn clean verify'
