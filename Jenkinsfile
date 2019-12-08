@@ -17,7 +17,7 @@ pipeline {
         stage('Checkout from Github') {
         
             steps{
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/fuz-rahm/simple-java-maven-app.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/mr/addpa11y-ci']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/fuz-rahm/simple-java-maven-app.git']]])
             }
         }
 
@@ -36,7 +36,7 @@ pipeline {
 
         stage('Pa11y') {
             steps {
-                sh 'pa11y -r csv https://cynerge.com --no-sandbox'
+                sh 'pa11y -r csv https://cynerge.com --no-sandbox '
                 }
 
         }
