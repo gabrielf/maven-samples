@@ -51,7 +51,7 @@ pipeline {
     }
     post {
         always {
-            emailext body: 'A Test EMail', subject: 'Test', to: "mrahman@cynerge.com"
+            mail bcc: 'test', body: 'test', cc: 'test', from: '', replyTo: '', subject: 'test', to: 'billupaii@gmail.com'
         }
     }
 }            
