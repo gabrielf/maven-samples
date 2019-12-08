@@ -37,7 +37,7 @@ pipeline {
         stage('Pa11y') {
             steps {
                 sh 'ls -a'
-                sh 'pa11y-ci'
+                sh 'pa11y-ci --config .pa11yci.json'
                 }
 
         }
