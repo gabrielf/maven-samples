@@ -20,12 +20,6 @@ pipeline {
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/fuz-rahm/simple-java-maven-app.git']]])
             }
         }
-        
-        stage('for testing'){
-            steps{
-                sh 'echo "test"'
-            }
-        }
 
         stage ('Unit Test') {
             steps{
@@ -40,19 +34,17 @@ pipeline {
             }
         }
 
-        // stage('Pa11y') {
-        //     steps {
-        //         sh 'pa11y -r csv https://cynerge.com --no-sandbox'
-        //         }
+        stage('Pa11y') {
+            steps {
+                sh 'pa11y -r csv https://cynerge.com --no-sandbox'
+                }
 
-        // }
+        }
 
-        
     }
     post {
         always {
             emailext body: 'test', subject: 'test', to: 'billupaii@gmail.com,mrahman@cynerge.com'
-            // mail bcc: 'test', body: 'test', cc: 'test', from: '', replyTo: '', subject: 'test', to: 'billupaii@gmail.com'
         }
     }
 }            
