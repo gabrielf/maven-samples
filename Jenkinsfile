@@ -51,7 +51,8 @@ pipeline {
     }
     post {
         always {
-            mail bcc: 'test', body: 'test', cc: 'test', from: '', replyTo: '', subject: 'test', to: 'billupaii@gmail.com'
+            emailext body: 'test', subject: 'test', to: 'billupaii@gmail.com'
+            // mail bcc: 'test', body: 'test', cc: 'test', from: '', replyTo: '', subject: 'test', to: 'billupaii@gmail.com'
         }
     }
 }            
