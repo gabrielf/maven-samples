@@ -45,6 +45,7 @@ pipeline {
                 sh 'mvn clean install -Dmaven.test.failure.ignore=true'
             }
         }
+    }
     
 
     post {
@@ -65,6 +66,7 @@ pipeline {
             mail to:"billupaii@gmail.com", subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
             }
     }
+    
 }
 
 
