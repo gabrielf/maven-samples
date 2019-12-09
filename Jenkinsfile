@@ -33,7 +33,7 @@ pipeline {
                 lighthouseReport './report/lighthouse/cynerge_com.report.json'
             }
         }
-        stage ('Test') {
+        stage ('Build Failed Notification') {
             steps {
                 sh 'echo "fail!"; exit 1'
             }
