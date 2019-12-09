@@ -54,17 +54,17 @@ pipeline {
             junit 'target/surefire-reports/*.xml'
         }
         success {
-            mail to:"mrahman@cynerge.com", subject:"SUCCESS: ${currentBuild.fullDisplayName}", body: "Yay, we passed."
+            mail to:"mrahman@cynerge.com", subject:"SUCCESS: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER}", body: "Yay, we passed."
         }
         failure {
-            mail to:"mahfuzurrahm518@gmail.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Boo, we failed."
+            mail to:"mahfuzurrahm518@gmail.com", subject:"FAILURE: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER}", body: "Boo, we failed."
         }
         unstable {
-            mail to:"jenkinsemailnotification31@gmail.com", subject:"UNSTABLE: ${currentBuild.fullDisplayName}", body: "Huh, we're unstable."
+            mail to:"jenkinsemailnotification31@gmail.com", subject:"UNSTABLE: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER}", body: "Huh, we're unstable."
         }
-        changed {
-            mail to:"billupaii@gmail.com", subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
-            }
+        //changed {
+            //mail to:, subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
+            //}
     }
     
 }
