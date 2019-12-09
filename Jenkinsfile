@@ -54,7 +54,7 @@ pipeline {
             junit 'target/surefire-reports/*.xml'
         }
         success {
-            mail to:"mrahman@cynerge.com", subject:"SUCCESS: , body: "Yay, we passed.", "${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}"
+            mail to:"mrahman@cynerge.com", subject:"SUCCESS: , body: "Yay, we passed.,${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}"
         }
         failure {
             mail to:"mahfuzurrahm518@gmail.com", subject:"FAILURE: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", body: "Boo, we failed."
