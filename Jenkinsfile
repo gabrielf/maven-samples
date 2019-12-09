@@ -54,23 +54,53 @@ pipeline {
         //}
     
     //}
-    post {  
-         always {  
-             echo 'This will always run'  
-         }  
-         success {  
-             echo 'This will run only if successful'  
-         }  
-         failure {  
-             mail bcc: '', body: "<b>Test Failed</b><br>Project:mr-maven ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", cc: '', charset: 'UTF-8', from: '', mimeType: 'text/html', replyTo: '', subject: "ERROR CI: Project name -> ${env.JOB_NAME}", to: "mahfuzurrahm518@gmail.com, mrahman@cynerge.com";  
-         }  
-         unstable {  
-             echo 'This will run only if the run was marked as unstable'  
-         }  
-         changed {  
-             echo 'This will run only if the state of the Pipeline has changed'  
-             echo 'For example, if the Pipeline was previously failing but is now successful'  
-         }  
-     }  
+    //post {  
+         //always {  
+             //echo 'This will always run'  
+         //}  
+         //success {  
+             //echo 'This will run only if successful'  
+         //}  
+         //failure {  
+             //mail bcc: '', body: "<b>Test Failed</b><br>Project:mr-maven ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", cc: '', charset: 'UTF-8', from: '', mimeType: 'text/html', replyTo: '', subject: "ERROR CI: Project name -> ${env.JOB_NAME}", to: "mahfuzurrahm518@gmail.com, mrahman@cynerge.com";  
+         //}  
+         //unstable {  
+             //echo 'This will run only if the run was marked as unstable'  
+         //}  
+         /changed {  
+             //echo 'This will run only if the state of the Pipeline has changed'  
+             //echo 'For example, if the Pipeline was previously failing but is now successful'  
+         //}  
+     //}  
+    
+        stage("build") {
+            steps {
+                sh 'echo "path: ${PATH}"'
+                sh 'echo "M2_HOME: ${M2_HOME}"'
+                sh 'mvn clean install -Dmaven.test.failure.ignore=true'
+            }
+        }
+    
+
+    post {
+        always {
+            archive "target/**/*"
+            junit 'target/surefire-reports/*.xml'
+        }
+        success {
+            mail to:"mrahman@cynerge.com", subject:"SUCCESS: ${currentBuild.fullDisplayName}", body: "Yay, we passed."
+        }
+        failure {
+            mail to:"mahfuzurrahm518@gmail.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Boo, we failed."
+        }
+        unstable {
+            mail to:"jenkinsemailnotification31@gmail.com", subject:"UNSTABLE: ${currentBuild.fullDisplayName}", body: "Huh, we're unstable."
+        }
+        changed {
+            mail to:"billupaii@gmail.com", subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
+            }
+    }
+
+
 }            
             
