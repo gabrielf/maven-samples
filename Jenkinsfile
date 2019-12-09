@@ -73,7 +73,7 @@ pipeline {
          //}  
      //}  
     
-        stage("build") {
+        stage('build') {
             steps {
                 sh 'echo "path: ${PATH}"'
                 sh 'echo "M2_HOME: ${M2_HOME}"'
