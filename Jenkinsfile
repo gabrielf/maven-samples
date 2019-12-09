@@ -45,7 +45,7 @@ pipeline {
     }
     post {
         always {
-            emailext body: 'test', subject: 'test', to: 'mahfuzurrahm518@gmail.com,mrahman@cynerge.com'
+            emailext body: 'Post Build Notification', subject: 'Jenkins Notification', to: 'mahfuzurrahm518@gmail.com,mrahman@cynerge.com'
         }
     }
 }            
