@@ -63,7 +63,7 @@ pipeline {
             mail to:"jenkinsemailnotification31@gmail.com", subject:"UNSTABLE: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", body: "Huh, we're unstable."
         }
         //changed {
-            mail to:, subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
+            //mail to:, subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
             //}
     }     
     
