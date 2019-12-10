@@ -6,6 +6,8 @@ pipeline {
         maven 'maven'
         jdk 'java8'
         nodejs "Node10"
+        sonarQube 'SonarQube Scanner 2.8'
+
     }
     stages {
         stage('clean workspace') {
@@ -45,7 +47,16 @@ pipeline {
                 sh 'mvn clean install -Dmaven.test.failure.ignore=true'
             }
         }
+        
+        stage('SonarQube analysis') {
+      
+            steps {
+            withSonarQubeEnv('SonarQube Scanner') {
+            sh 'sonar-scanner'
+        }
+      }
     }
+    
     
 
     post {
