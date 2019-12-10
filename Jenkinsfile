@@ -48,6 +48,20 @@ pipeline {
                 sh 'mvn clean install -Dmaven.test.failure.ignore=true'
             }
         }
+        stage('Sonarqube') {
+            environment {
+                scannerHome = tool 'SonarQubeScanner'
+            }
+            steps {
+                withSonarQubeEnv('sonarqube') {
+                sh "${scannerHome}/bin/sonar-scanner"
+                }
+                timeout(time: 10, unit: 'MINUTES') {
+                waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+        
         
         //stage('SonarQube analysis') {
       
@@ -58,16 +72,16 @@ pipeline {
             //}
         //}
 
-        stage('SonarQube analysis') {
-            tools {   
-                sonarQube 'SonarQube Scanner 2.10'
-            }
-            steps {
-                withSonarQubeEnv('SonarQube Scanner') {
-                sh 'sonar-scanner'
-                }
-            }
-        }
+        //stage('SonarQube analysis') {
+            //tools {   
+                //sonarQube 'SonarQube Scanner 2.10'
+            //}
+            //steps {
+                //withSonarQubeEnv('SonarQube Scanner') {
+                //sh 'sonar-scanner'
+                //}
+            //}
+        //}
     
     
     
