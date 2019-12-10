@@ -6,9 +6,9 @@ pipeline {
         maven 'maven'
         jdk 'java8'
         nodejs "Node10"
-        sonarQube 'SonarQube Scanner 2.8'
+    }  
 
-    }
+    
     stages {
         stage('clean workspace') {
             steps{
@@ -51,11 +51,23 @@ pipeline {
         stage('SonarQube analysis') {
       
             steps {
-            withSonarQubeEnv('SonarQube Scanner') {
-            sh 'sonar-scanner'
+                withSonarQubeEnv('SonarQube Scanner') {
+                sh 'sonar-scanner'
+                }   
+            }
         }
-      }
-    }
+
+        stage('SonarQube analysis') {
+            tools {   
+                sonarQube 'SonarQube Scanner 2.8'
+            }
+            steps {
+                withSonarQubeEnv('SonarQube Scanner') {
+                sh 'sonar-scanner'
+                }
+            }
+        }
+    
     
     
 
@@ -115,4 +127,4 @@ pipeline {
          //}  
      //}
 //}            
-  //    
+//
