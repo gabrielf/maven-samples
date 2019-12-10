@@ -48,14 +48,14 @@ pipeline {
             }
         }
         
-        stage('SonarQube analysis') {
+        //stage('SonarQube analysis') {
       
-            steps {
-                withSonarQubeEnv('SonarQube Scanner') {
-                sh 'sonar-scanner'
-                }   
-            }
-        }
+            //steps {
+                //withSonarQubeEnv('SonarQube Scanner') {
+                //sh 'sonar-scanner'
+                //}   
+            //}
+        //}
 
         stage('SonarQube analysis') {
             tools {   
