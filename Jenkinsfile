@@ -6,6 +6,7 @@ pipeline {
         maven 'maven'
         jdk 'java8'
         nodejs "Node10"
+        sonarQube 'sonarQube Scanner 2.10'
     }  
 
     
@@ -58,9 +59,9 @@ pipeline {
         //}
 
         stage('SonarQube analysis') {
-            tools {   
-                sonarQube 'SonarQube Scanner 2.10'
-            }
+            //tools {   
+                //sonarQube 'SonarQube Scanner 2.10'
+            //}
             steps {
                 withSonarQubeEnv('SonarQube Scanner') {
                 sh 'sonar-scanner'
