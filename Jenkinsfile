@@ -62,13 +62,12 @@ pipeline {
             }
         }
 
-        stage('SonarQube analysis') {
-      
+         stage('Pa11y') {
             steps {
-                withSonarQubeEnv('SonarQube Scanner') {
-                sh 'sonar-scanner'
-                }   
+                 sh 'ls -a'
+                sh 'pa11y-ci --config .pa11yci.json'
             }
+
         }
 
         
