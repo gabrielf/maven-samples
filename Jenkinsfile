@@ -48,17 +48,17 @@ pipeline {
                 sh 'mvn clean install -Dmaven.test.failure.ignore=true'
             }
         }
-        stage('Sonarqube') {
-            environment {
-                scannerHome = tool 'SonarQubeScanner'
-                }
-            steps {
-                withSonarQubeEnv('sonarqube') {
-                sh "${scannerHome}/bin/sonar-scanner"
-                }
-                timeout(time: 10, unit: 'MINUTES') {
-                waitForQualityGate abortPipeline: true
-                }
+        //stage('Sonarqube') {
+            //environment {
+                //scannerHome = tool 'SonarQubeScanner'
+                //}
+            //steps {
+                //withSonarQubeEnv('sonarqube') {
+                //sh "${scannerHome}/bin/sonar-scanner"
+                //}
+                //timeout(time: 10, unit: 'MINUTES') {
+                //waitForQualityGate abortPipeline: true
+                //}
             
             }
         }
@@ -74,25 +74,26 @@ pipeline {
 
         
         
-        //stage('SonarQube analysis') {
+        stage('SonarQube analysis') {
       
-            //steps {
-                //withSonarQubeEnv('SonarQube Scanner') {
-                //sh 'sonar-scanner'
-                //}   
-            //}
-        //}
+            steps {
+                withSonarQubeEnv('SonarQube Scanner') {
+                sh 'sonar-scanner'
+                }   
+            }
+        }
 
-        //stage('SonarQube analysis') {
-            //tools {   
-                //sonarQube 'SonarQube Scanner 4.8'
-            //}
-            //steps {
-                //withSonarQubeEnv('SonarQube Scanner') {
-                //sh 'sonar-scanner'
-                //}
-            //}
-        //}
+        stage('SonarQube analysis') {
+            tools {   
+                sonarQube 'SonarQube Scanner 4.8'
+            }
+            steps {
+                withSonarQubeEnv('SonarQube Scanner') {
+                sh 'sonar-scanner'
+                }
+            }
+        }
+        
     
     
     
@@ -111,9 +112,9 @@ pipeline {
         unstable {
             mail to:"jenkinsemailnotification31@gmail.com", subject:"UNSTABLE: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", body: "Huh, we're unstable."
         }
-        //changed {
-            //mail to:, subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
-            //}
+        changed {
+            mail to:, subject:"CHANGED: ${currentBuild.fullDisplayName}", body: "Wow, our status changed!"
+            }
     }     
     
 }
@@ -137,10 +138,6 @@ pipeline {
     //post {  
          //always {  
              //echo 'This will always run'  
-         //}  
-         //success {  
-             //echo 'This will run only if successful'  
-         //}  
          //failure {  
              //mail bcc: '', body: "<b>Test Failed</b><br>Project:mr-maven ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", cc: '', charset: 'UTF-8', from: '', mimeType: 'text/html', replyTo: '', subject: "ERROR CI: Project name -> ${env.JOB_NAME}", to: "mahfuzurrahm518@gmail.com, mrahman@cynerge.com";  
          //}  
